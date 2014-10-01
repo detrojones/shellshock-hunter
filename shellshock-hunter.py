@@ -28,6 +28,9 @@ def parse_args():
    parser.add_argument("-k", "--key", help="Your Bing API key found at https://datamarket.azure.com/account")
    return parser.parse_args()
 
+#def google_searches(query, key, offset **kwargs): Still working on this
+   
+   
 def bing_search(query, key, offset, **kwargs):
     ''' Make the search '''
     username = ''
